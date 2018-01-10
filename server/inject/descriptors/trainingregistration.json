@@ -58,7 +58,7 @@
     },
     "companyList": {
       "type": "object",
-      "selector": ".k-item",
+      "selector": "#trainingCompanyList_listbox > li",
       "properties": {}
     }
   },
