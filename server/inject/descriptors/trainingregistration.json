@@ -68,7 +68,7 @@
             "control": "property.innerText"
           },
           "click": {
-            "type": "string",
+            "type": "action",
             "control": "action.click"
           }
         }
