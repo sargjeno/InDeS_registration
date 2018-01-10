@@ -64,7 +64,6 @@
         "properties": {
           "name": {
             "type": "string",
-            "selector": ".k-item",
             "control": "property.innerText"
           }
         }
