@@ -4,7 +4,7 @@
     "isbatchregistration": {
       "type": "identifier",
       "selector": ".title",
-      "control": "action.link",
+      "control": "exists",
       "selectContains": "Group administration"
     }
   },
