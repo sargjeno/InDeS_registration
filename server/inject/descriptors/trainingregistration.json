@@ -72,8 +72,9 @@
     },
     "test": {
       "type": "string",
-      "selector": ".k-item",
-      "control": "property.innerText"
+      "selector": "#trainingCompanyList_listbox > li:nth-child(1)",
+      "control": "property.innerText",
+      "selectHidden": true
     }
   },
   "connect": []
