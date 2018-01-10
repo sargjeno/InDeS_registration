@@ -63,11 +63,12 @@
         "properties": {
           "name": {
             "type": "string",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selector": "#trainingCompanyList-list",
+            "selectHidden": true
           }
         }
-      },
-      "selectorAll": "#trainingCompanyList_listbox > li"
+      }
     }
   },
   "connect": []
