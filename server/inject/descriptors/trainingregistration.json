@@ -47,7 +47,7 @@
     },
     "traininglist": {
       "type": "select",
-      "selector": "#text",
+      "selector": "#trainingList",
       "control": "select",
       "selectContains": "Select Training"
     }
