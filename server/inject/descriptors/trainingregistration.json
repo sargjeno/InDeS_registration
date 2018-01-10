@@ -65,10 +65,7 @@
           "name": {
             "type": "string",
             "control": "property.innerText",
-            "selector": {
-              "fn": "",
-              "selector": ""
-            }
+            "selector": "li"
           }
         }
       }
