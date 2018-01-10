@@ -59,7 +59,7 @@
     "test": {
       "type": "select",
       "selector": "#trainingCompanyList_listbox > li",
-      "control": "property.innerText",
+      "control": "select",
       "selectHidden": true
     }
   },
