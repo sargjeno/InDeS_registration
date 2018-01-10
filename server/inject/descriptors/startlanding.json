@@ -1,5 +1,12 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isLanding": {
+      "type": "string",
+      "selector": "span",
+      "control": "exists",
+      "selectContains": "News"
+    }
+  },
   "connect": []
 }
