@@ -9,7 +9,7 @@
     },
     "goRegisration": {
       "type": "action",
-      "selector": ".k-link",
+      "selector": "#menu_mn_active > a",
       "control": "action.link",
       "selectContains": "Training batch create"
     }
