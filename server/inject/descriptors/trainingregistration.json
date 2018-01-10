@@ -37,6 +37,11 @@
       "type": "string",
       "selector": "#quarter",
       "control": "text"
+    },
+    "comment": {
+      "type": "string",
+      "selector": "#Comment",
+      "control": "text"
     }
   },
   "connect": []
