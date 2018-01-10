@@ -5,7 +5,8 @@
     "isgroupregistartion": {
       "type": "identifier",
       "selector": ".title",
-      "control": "property.innerText"
+      "control": "exists",
+      "selectContains": "Group administration"
     }
   },
   "connect": []
