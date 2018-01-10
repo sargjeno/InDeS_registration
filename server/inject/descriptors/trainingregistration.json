@@ -27,6 +27,11 @@
       "type": "string",
       "selector": ".k-formatted-value.k-input",
       "control": "text"
+    },
+    "trainingtime": {
+      "type": "string",
+      "selector": ".k-formatted-value.k-input",
+      "control": "text"
     }
   },
   "connect": []
