@@ -64,7 +64,7 @@
           "name": {
             "type": "string",
             "control": "property.innerText",
-            "selector": "#trainingCompanyList_listbox > li"
+            "selector": "ul#trainingCompanyList_listbox > li"
           }
         }
       }
