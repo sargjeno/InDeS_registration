@@ -56,20 +56,6 @@
       "control": "text",
       "selectHidden": true
     },
-    "companyList": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "selectorAll": "#trainingCompanyList_listbox > li.k-item",
-            "control": "property.innerText",
-            "selectHidden": true
-          }
-        }
-      }
-    },
     "test": {
       "type": "string",
       "selector": "#trainingCompanyList_listbox > li",
