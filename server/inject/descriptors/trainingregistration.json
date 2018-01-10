@@ -63,8 +63,9 @@
         "properties": {
           "name": {
             "type": "string",
-            "selector": ".k-item",
-            "control": "property.innerText"
+            "selector": "#trainingCompanyList_listbox",
+            "control": "property.innerText",
+            "selectHidden": true
           }
         }
       }
