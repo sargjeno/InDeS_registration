@@ -1,6 +1,12 @@
 {
   "type": "object",
   "comment": "Forms",
-  "properties": {},
+  "properties": {
+    "isgroupregistartion": {
+      "type": "string",
+      "selector": ".title",
+      "control": "property.innerText"
+    }
+  },
   "connect": []
 }
