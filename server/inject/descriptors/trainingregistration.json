@@ -68,7 +68,7 @@
           }
         }
       },
-      "selector": "#trainingCompanyList-list",
+      "selector": "trainingCompanyList_listbox",
       "selectHidden": true
     }
   },
