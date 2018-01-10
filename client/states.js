@@ -33,5 +33,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.trainingregistration', {
+        views: {
+            app: {
+                controller: 'app_trainingregistration',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.trainingregistration');
+                }
+            }
+        }
     });
 });
