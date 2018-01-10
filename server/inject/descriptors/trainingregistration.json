@@ -61,7 +61,7 @@
       "properties": {
         "list": {
           "type": "array",
-          "selectorAll": "#trainingCompanyList_listbox > li",
+          "selectorAll": "#trainingCompanyList_listbox",
           "items": {
             "type": "object",
             "properties": {}
@@ -70,6 +70,14 @@
       },
       "selector": "#trainingCompanyList-list",
       "selectHidden": true
+    },
+    "list2company": {
+      "type": "array",
+      "selectorAll": "#trainingCompanyList_listbox",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
