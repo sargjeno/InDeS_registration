@@ -58,12 +58,7 @@
     },
     "companyList": {
       "type": "object",
-      "properties": {
-        "name": {
-          "type": "string",
-          "control": "property.innerText"
-        }
-      },
+      "properties": {},
       "selector": "#trainingCompanyList-list",
       "selectHidden": true
     }
