@@ -59,7 +59,8 @@
     "companyList": {
       "type": "object",
       "selector": "#trainingCompanyList_listbox > li",
-      "properties": {}
+      "properties": {},
+      "control": "select"
     }
   },
   "connect": []
