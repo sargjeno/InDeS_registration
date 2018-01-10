@@ -63,11 +63,11 @@
         "properties": {
           "name": {
             "type": "string",
-            "control": "property.innerText",
-            "selector": "ul#trainingCompanyList_listbox > li"
+            "control": "property.innerText"
           }
         }
-      }
+      },
+      "selectorAll": "#trainingCompanyList_listbox > li"
     }
   },
   "connect": []
