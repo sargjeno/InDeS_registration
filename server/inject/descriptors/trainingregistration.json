@@ -63,7 +63,7 @@
         "properties": {
           "name": {
             "type": "string",
-            "selector": "#trainingCompanyList_listbox > li.k-item",
+            "selectorAll": "#trainingCompanyList_listbox > li.k-item",
             "control": "property.innerText",
             "selectHidden": true
           }
