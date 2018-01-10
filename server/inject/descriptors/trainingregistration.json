@@ -72,7 +72,7 @@
     },
     "test": {
       "type": "string",
-      "selector": "#trainingCompanyList_listbox > li:nth-child(1)",
+      "selector": "#trainingCompanyList_listbox > li",
       "control": "property.innerText",
       "selectHidden": true
     }
