@@ -48,8 +48,7 @@
     "traininglist": {
       "type": "select",
       "selector": "#trainingList",
-      "control": "select",
-      "selectContains": "Select Training"
+      "control": "select"
     }
   },
   "connect": []
