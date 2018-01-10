@@ -6,20 +6,7 @@
       "selector": "span",
       "control": "exists",
       "selectContains": "News"
-    },
-    "goRegisration": {
-      "type": "action",
-      "selector": "a.k-link",
-      "control": "action.link",
-      "selectContains": "Training batch create"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isLanding"
-      ],
-      "action": "goRegisration"
-    }
-  ]
+  "connect": []
 }
