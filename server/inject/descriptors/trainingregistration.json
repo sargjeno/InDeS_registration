@@ -7,6 +7,11 @@
       "selector": ".title",
       "control": "exists",
       "selectContains": "Group administration"
+    },
+    "startdate": {
+      "type": "string",
+      "selector": "#trainingStartDate",
+      "control": "text"
     }
   },
   "connect": []
