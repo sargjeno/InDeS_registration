@@ -63,7 +63,7 @@
         "properties": {
           "name": {
             "type": "string",
-            "selector": "#trainingCompanyList_listbox",
+            "selector": "#trainingCompanyList_listbox > li",
             "control": "property.innerText",
             "selectHidden": true
           }
