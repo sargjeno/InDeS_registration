@@ -42,6 +42,12 @@
       "type": "string",
       "selector": "#Comment",
       "control": "text"
+    },
+    "traininglist": {
+      "type": "select",
+      "selector": ".k-input",
+      "control": "select",
+      "selectContains": "Select Training"
     }
   },
   "connect": []
