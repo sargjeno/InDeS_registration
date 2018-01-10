@@ -57,10 +57,13 @@
       "selectHidden": true
     },
     "test": {
-      "type": "select",
-      "selector": "#trainingCompanyList_listbox > li",
-      "control": "select",
-      "selectHidden": true
+      "type": "array",
+      "selectHidden": true,
+      "selectorAll": "#trainingCompanyList_listbox > li",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
