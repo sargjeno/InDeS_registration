@@ -66,6 +66,11 @@
           "name": {
             "type": "string",
             "control": "property.innerText"
+          },
+          "click": {
+            "type": "string",
+            "selector": ".k-item",
+            "control": "property.innerText"
           }
         }
       }
