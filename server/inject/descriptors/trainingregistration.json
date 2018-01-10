@@ -47,8 +47,9 @@
     },
     "traininglist": {
       "type": "select",
-      "selector": "#trainingList",
-      "control": "select"
+      "selector": ".k-input",
+      "control": "select",
+      "selectIndex": 2
     }
   },
   "connect": []
