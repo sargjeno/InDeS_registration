@@ -58,7 +58,16 @@
     },
     "companyList": {
       "type": "object",
-      "properties": {},
+      "properties": {
+        "list": {
+          "type": "array",
+          "selectorAll": "#trainingCompanyList-list",
+          "items": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
       "selector": "#trainingCompanyList-list",
       "selectHidden": true
     }
