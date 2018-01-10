@@ -14,5 +14,12 @@
       "selectContains": "Training batch create"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isLanding"
+      ],
+      "action": "goRegisration"
+    }
+  ]
 }
