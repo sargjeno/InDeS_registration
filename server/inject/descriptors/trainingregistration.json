@@ -3,7 +3,7 @@
   "comment": "Forms",
   "properties": {
     "isgroupregistartion": {
-      "type": "string",
+      "type": "identifier",
       "selector": ".title",
       "control": "property.innerText"
     }
