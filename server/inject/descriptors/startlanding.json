@@ -8,5 +8,12 @@
       "selectContains": "News"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isLanding"
+      ],
+      "event": "clickTrainingBatchCreate"
+    }
+  ]
 }
