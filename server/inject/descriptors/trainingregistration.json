@@ -64,7 +64,8 @@
         "properties": {
           "name": {
             "type": "string",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selector": "#trainingCompanyList_listbox > li"
           }
         }
       }
