@@ -48,8 +48,7 @@
     "traininglist": {
       "type": "select",
       "selector": ".k-input",
-      "control": "select",
-      "selectContains": "Select Training..."
+      "control": "select"
     },
     "company": {
       "type": "string",
