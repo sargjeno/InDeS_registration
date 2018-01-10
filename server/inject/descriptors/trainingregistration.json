@@ -58,7 +58,6 @@
     },
     "companyList": {
       "type": "array",
-      "selectorAll": "#trainingCompanyList_listbox",
       "items": {
         "type": "object",
         "properties": {
