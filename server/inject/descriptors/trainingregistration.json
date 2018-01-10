@@ -32,6 +32,11 @@
       "type": "string",
       "selector": ".k-formatted-value.k-input",
       "control": "text"
+    },
+    "quarter": {
+      "type": "string",
+      "selector": "#quarter",
+      "control": "text"
     }
   },
   "connect": []
