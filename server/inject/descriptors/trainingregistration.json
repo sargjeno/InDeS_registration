@@ -57,18 +57,15 @@
       "selectHidden": true
     },
     "companyList": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "control": "property.innerText",
-            "selector": "#trainingCompanyList-list",
-            "selectHidden": true
-          }
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "control": "property.innerText"
         }
-      }
+      },
+      "selector": "#trainingCompanyList-list",
+      "selectHidden": true
     }
   },
   "connect": []
