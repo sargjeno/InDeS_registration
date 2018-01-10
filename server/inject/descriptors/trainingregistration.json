@@ -57,9 +57,12 @@
       "selectHidden": true
     },
     "companyList": {
-      "type": "select",
-      "selector": "#trainingCompanyList_listbox",
-      "control": "select"
+      "type": "array",
+      "selectorAll": "#trainingCompanyList_listbox",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
