@@ -50,6 +50,11 @@
       "selector": ".k-input",
       "control": "select",
       "selectContains": "Select Training..."
+    },
+    "company": {
+      "type": "string",
+      "selector": "#trainingCompanyList",
+      "control": "text"
     }
   },
   "connect": []
