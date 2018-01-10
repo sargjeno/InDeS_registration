@@ -61,7 +61,7 @@
       "properties": {
         "list": {
           "type": "array",
-          "selectorAll": "#trainingCompanyList-list",
+          "selectorAll": "#trainingCompanyList_listbox > li",
           "items": {
             "type": "object",
             "properties": {}
