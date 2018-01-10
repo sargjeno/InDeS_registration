@@ -62,7 +62,12 @@
       "selectorAll": "#trainingCompanyList_listbox > li",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "name": {
+            "type": "string",
+            "control": "property.innerText"
+          }
+        }
       }
     }
   },
