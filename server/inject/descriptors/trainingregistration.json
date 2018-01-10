@@ -12,6 +12,11 @@
       "type": "string",
       "selector": "#trainingStartDate",
       "control": "text"
+    },
+    "enddate": {
+      "type": "string",
+      "selector": "#trainingEndDate",
+      "control": "text"
     }
   },
   "connect": []
