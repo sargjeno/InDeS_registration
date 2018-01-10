@@ -80,7 +80,8 @@
           "listop": {
             "type": "string",
             "selector": "li",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectHidden": true
           }
         }
       }
