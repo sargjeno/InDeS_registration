@@ -59,7 +59,8 @@
     "companyList": {
       "type": "select",
       "selector": "#trainingCompanyList_listbox",
-      "selectHidden": true
+      "selectHidden": true,
+      "control": "select"
     }
   },
   "connect": []
