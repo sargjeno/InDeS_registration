@@ -60,7 +60,13 @@
       "type": "array",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "name": {
+            "type": "string",
+            "selector": ".k-item",
+            "control": "property.innerText"
+          }
+        }
       }
     }
   },
