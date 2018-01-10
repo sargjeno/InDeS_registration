@@ -9,8 +9,9 @@
     },
     "goRegisration": {
       "type": "action",
-      "selector": "span",
-      "control": "property.innerText"
+      "selector": ".k-link",
+      "control": "action.link",
+      "selectContains": "Training batch create"
     }
   },
   "connect": []
