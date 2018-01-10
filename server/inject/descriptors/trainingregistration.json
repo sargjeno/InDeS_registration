@@ -47,7 +47,7 @@
     },
     "traininglist": {
       "type": "select",
-      "selector": ".k-input",
+      "selector": "#trainingCompanyList_listbox > li",
       "control": "select"
     },
     "company": {
@@ -55,6 +55,11 @@
       "selector": "#trainingCompanyList",
       "control": "text",
       "selectHidden": true
+    },
+    "companyList": {
+      "type": "object",
+      "selector": ".k-item",
+      "properties": {}
     }
   },
   "connect": []
