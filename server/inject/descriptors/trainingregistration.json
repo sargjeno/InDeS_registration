@@ -17,6 +17,11 @@
       "type": "string",
       "selector": "#trainingEndDate",
       "control": "text"
+    },
+    "plannedcost": {
+      "type": "string",
+      "selector": ".k-formatted-value.k-input",
+      "control": "text"
     }
   },
   "connect": []
