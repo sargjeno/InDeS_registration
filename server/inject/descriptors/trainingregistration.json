@@ -64,8 +64,7 @@
         "properties": {
           "name": {
             "type": "string",
-            "control": "property.innerText",
-            "selector": "li"
+            "control": "property.innerText"
           }
         }
       }
