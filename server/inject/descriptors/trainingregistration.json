@@ -22,6 +22,11 @@
       "type": "string",
       "selector": ".k-formatted-value.k-input",
       "control": "text"
+    },
+    "realcost": {
+      "type": "string",
+      "selector": ".k-formatted-value.k-input",
+      "control": "text"
     }
   },
   "connect": []
