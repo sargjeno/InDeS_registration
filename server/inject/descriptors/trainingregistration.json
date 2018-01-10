@@ -56,7 +56,7 @@
       "control": "text",
       "selectHidden": true
     },
-    "test": {
+    "companyList": {
       "type": "array",
       "selectHidden": true,
       "selectorAll": "#trainingCompanyList_listbox > li",
