@@ -1,5 +1,12 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isbatchregistration": {
+      "type": "identifier",
+      "selector": ".title",
+      "control": "action.link",
+      "selectContains": "Group administration"
+    }
+  },
   "connect": []
 }
