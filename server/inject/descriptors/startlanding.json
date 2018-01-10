@@ -2,10 +2,15 @@
   "type": "object",
   "properties": {
     "isLanding": {
-      "type": "string",
+      "type": "identifier",
       "selector": "span",
       "control": "exists",
       "selectContains": "News"
+    },
+    "goRegisration": {
+      "type": "action",
+      "selector": "span",
+      "control": "property.innerText"
     }
   },
   "connect": []
