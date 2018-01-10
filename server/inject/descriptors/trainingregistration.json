@@ -9,14 +9,16 @@
       "selectContains": "Group administration"
     },
     "startdate": {
-      "type": "string",
+      "type": "date",
       "selector": "#trainingStartDate",
-      "control": "text"
+      "control": "text",
+      "format": "YYYY-MM-DD"
     },
     "enddate": {
-      "type": "string",
+      "type": "date",
       "selector": "#trainingEndDate",
-      "control": "text"
+      "control": "text",
+      "format": "YYYY-MM-DD"
     },
     "plannedcost": {
       "type": "string",
