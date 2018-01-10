@@ -57,7 +57,7 @@
       "selectHidden": true
     },
     "test": {
-      "type": "string",
+      "type": "select",
       "selector": "#trainingCompanyList_listbox > li",
       "control": "property.innerText",
       "selectHidden": true
