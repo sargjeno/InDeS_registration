@@ -54,7 +54,8 @@
     "company": {
       "type": "string",
       "selector": "#trainingCompanyList",
-      "control": "text"
+      "control": "text",
+      "selectHidden": true
     }
   },
   "connect": []
