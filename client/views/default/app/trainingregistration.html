@@ -47,29 +47,30 @@
                 data-comp-id="dateInput.1">
                 <span class="input-label required">Start Date</span>
                 <input date-format="YYYY-MM-DD" max="2100-12-12" min="1900-01-01"
-                    ng-model-options="{allowInvalid: true}" type="date">
+                    ng-model-options="{allowInvalid: true}" ng-model="data.startdate"
+                    powwow-change="{dynamic:false}" type="date">
             </label>
             <label class="item item-input item-date-icon positive-icon"
                 data-comp-id="dateInput.2">
                 <span class="input-label required">End Date</span>
                 <input date-format="YYYY-MM-DD" max="2100-12-12" min="1900-01-01"
-                    ng-model-options="{allowInvalid: true}" type="date">
+                    ng-model-options="{allowInvalid: true}" ng-model="data.enddate" type="date">
             </label>
             <label class="item item-input" data-comp-id="textInput.1">
                 <span class="input-label required">Planned cost</span>
-                <input type="number">
+                <input ng-model="data.plannedcost" type="number">
             </label>
             <label class="item item-input" data-comp-id="textInput.2">
                 <span class="input-label required">Real cost</span>
-                <input type="number">
+                <input ng-model="data.realcost" type="number">
             </label>
             <label class="item item-input" data-comp-id="textInput.3">
                 <span class="input-label required">Training time</span>
-                <input type="number">
+                <input ng-model="data.trainingtime" type="number">
             </label>
             <label class="item item-input" data-comp-id="textInput.4">
                 <span class="input-label">Quarter</span>
-                <input type="text">
+                <input ng-model="data.quarter" type="text">
             </label>
             <ion-list data-comp-id="ionic-list.1">
                 <div class="row" data-comp-id="row.3"
@@ -94,9 +95,12 @@
                 title="Realization status...">Realization status...</select-list>
             <select-list data-comp-id="selectList.5" label-class=" required"
                 title="Training status...">Training status...</select-list>
-            <ion-checkbox
-                class="checkbox-style-square checkbox-position-right positive-icon-border positive-icon-checked"
-                data-comp-id="checkbox.1" ng-model="data.boolean2">Checkbox</ion-checkbox>
+            <label class="item item-input item-stacked-label light-bg"
+                data-comp-id="textAreaInput.1"
+                style="border-bottom: 0px; margin: 2% 0% 0%; border-top: 0px;">
+                <textarea ng-model="data.comment" placeholder="Write your comments here"
+                    rows="4"></textarea>
+            </label>
         </div>
         <!--Container 4-->
         <!--Container 5-->
@@ -105,7 +109,7 @@
         <div class="row" data-comp-id="row.5" style="margin: 2px 0px 0px;">
             <div class="col" data-comp-id="column.5">
                 <div class=" light" data-comp-id="text.4"
-                    style="font-size: 16px; margin: 0% 0% 0% 2%;">Section Four</div>
+                    style="font-size: 16px; margin: 0% 0% 0% 2%;">Select employee</div>
             </div>
         </div>
         <div class=" card" data-comp-id="div.4"
@@ -138,20 +142,10 @@
         <!--Form Section-->
         <!--Form Section-->
         <div class="row" data-comp-id="row.6" style="margin: 0px;">
-            <div class="col" data-comp-id="column.6">
-                <div class=" light" data-comp-id="text.5"
-                    style="font-size: 16px; margin: 0% 0% 0% 2%;">Comments</div>
-            </div>
+            <div class="col" data-comp-id="column.6"></div>
         </div>
         <div class="light-bg card" data-comp-id="div.7"
-            style="margin: 0px 4%; border-radius: 10px;">
-            <label class="item item-input item-stacked-label light-bg"
-                data-comp-id="textAreaInput.1"
-                style="border-bottom: 0px; margin: 2% 0% 0%; border-top: 0px;">
-                <textarea ng-model="data.string3" placeholder="Write your comments here"
-                    rows="4"></textarea>
-            </label>
-        </div>
+            style="margin: 0px 4%; border-radius: 10px;"></div>
         <div class="row" data-comp-id="row.7">
             <div class="col" data-comp-id="column.7">
                 <button class="button button-block" data-comp-id="button.3"

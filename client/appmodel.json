@@ -8,26 +8,48 @@
       },
       "startdate": {
         "type": "date",
-        "format": "YYYY-MM-DD"
+        "format": "YYYY-MM-DD",
+        "update": {
+          "type": "change",
+          "dynamic": false
+        }
       },
       "enddate": {
         "type": "date",
-        "format": "YYYY-MM-DD"
+        "format": "YYYY-MM-DD",
+        "update": {
+          "type": "none"
+        }
       },
       "plannedcost": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "realcost": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "trainingtime": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "quarter": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "comment": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "company": {
         "type": "string"
