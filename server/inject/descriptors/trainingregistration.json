@@ -111,8 +111,7 @@
           },
           "click": {
             "type": "action",
-            "control": "action.click",
-            "selectHidden": true
+            "control": "action.click"
           }
         }
       }
