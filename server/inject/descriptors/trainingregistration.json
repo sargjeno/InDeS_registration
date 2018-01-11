@@ -173,7 +173,7 @@
           },
           "click": {
             "type": "action",
-            "control": "action.link"
+            "control": "action.click"
           }
         }
       }
