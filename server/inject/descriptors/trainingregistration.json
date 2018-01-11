@@ -110,7 +110,7 @@
           },
           "click": {
             "type": "action",
-            "control": "property.innerText"
+            "control": "action.click"
           }
         }
       }
