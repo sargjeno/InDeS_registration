@@ -100,19 +100,16 @@
       "selectHidden": true
     },
     "trainerList": {
-      "type": "array",
-      "selectorAll": "#trainerList_listbox > li",
-      "items": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "control": "property.innerText"
-          },
-          "click": {
-            "type": "action",
-            "control": "action.click"
-          }
+      "type": "object",
+      "selector": "#trainerList_listbox > li",
+      "properties": {
+        "name": {
+          "type": "string",
+          "control": "property.innerText"
+        },
+        "click": {
+          "type": "action",
+          "control": "action.click"
         }
       }
     }
