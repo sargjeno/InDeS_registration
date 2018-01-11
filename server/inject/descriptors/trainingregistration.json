@@ -100,7 +100,7 @@
     },
     "trainerList": {
       "type": "array",
-      "selectorAll": "body",
+      "selectorAll": "#trainerList_listbox > li",
       "items": {
         "type": "object",
         "properties": {
