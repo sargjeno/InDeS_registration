@@ -4,8 +4,7 @@
     "isLanding": {
       "type": "identifier",
       "selector": "html",
-      "selectContains": "trainingregistrationinbatch",
-      "control": "property.innerHTML"
+      "control": "url.trainingregistrationinbatch"
     },
     "loggeduser": {
       "type": "string",
