@@ -130,10 +130,13 @@
       "selectHidden": true
     },
     "employeeList": {
-      "type": "object",
-      "selector": ".k-link",
-      "properties": {},
-      "selectHidden": true
+      "type": "array",
+      "selectHidden": true,
+      "selectorAll": ".k-link",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": [],
