@@ -109,8 +109,7 @@
             "control": "property.innerText"
           },
           "click": {
-            "type": "string",
-            "selector": "body",
+            "type": "action",
             "control": "property.innerText"
           }
         }
