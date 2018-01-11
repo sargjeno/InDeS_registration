@@ -132,7 +132,7 @@
     "employeeList": {
       "type": "array",
       "selectHidden": true,
-      "selectorAll": ".k-link",
+      "selectorAll": "#employee_listbox > li",
       "items": {
         "type": "object",
         "properties": {}
