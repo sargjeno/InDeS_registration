@@ -169,7 +169,7 @@
         "properties": {
           "name": {
             "type": "string",
-            "control": "property.innerHTML"
+            "control": "property.innerText"
           },
           "click": {
             "type": "action",
