@@ -84,6 +84,10 @@
           "name": {
             "type": "string",
             "control": "property.innerText"
+          },
+          "click": {
+            "type": "action",
+            "control": "action.click"
           }
         }
       }
