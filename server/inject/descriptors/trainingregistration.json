@@ -183,6 +183,12 @@
           }
         }
       }
+    },
+    "statusList": {
+      "type": "string",
+      "selector": "#trainingStatus_listbox > li",
+      "control": "property.innerText",
+      "selectHidden": true
     }
   },
   "connect": [
