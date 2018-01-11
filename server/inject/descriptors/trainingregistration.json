@@ -190,7 +190,12 @@
       "selectorAll": "#trainingStatus_listbox > li",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "name": {
+            "type": "string",
+            "control": "property.innerHTML"
+          }
+        }
       }
     }
   },
