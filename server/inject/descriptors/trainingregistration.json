@@ -92,7 +92,21 @@
           }
         }
       }
+    },
+    "trainer": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
+    },
+    "trainerList": {
+      "type": "array",
+      "selectorAll": "body",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
-  "connect": []
+  "connect": [],
+  "selectHidden": true
 }
