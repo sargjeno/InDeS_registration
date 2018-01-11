@@ -22,18 +22,18 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "trainingregistration",
-      "name": "trainingregistration",
-      "sourceScreenId": "app.formlarge.formlargecaptivating",
-      "sourceAppId": "universaltemplates",
-      "model": "trainingregistration"
-    },
-    {
       "id": "login",
       "name": "Login",
       "sourceScreenId": "app.login.logincaptivating",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "trainingregistration",
+      "name": "trainingregistration",
+      "sourceScreenId": "app.formlarge.formlargecaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "trainingregistration_2"
     }
   ],
   "sourceAppId": "_blank",
