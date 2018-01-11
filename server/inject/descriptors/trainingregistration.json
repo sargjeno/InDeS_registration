@@ -203,6 +203,15 @@
       }
     }
   },
-  "connect": [],
+  "connect": [
+    {
+      "match": [
+        "isgroupregistartion"
+      ],
+      "screens": [
+        "trainingregistration"
+      ]
+    }
+  ],
   "selectHidden": true
 }
