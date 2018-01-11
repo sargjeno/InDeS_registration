@@ -20,26 +20,9 @@
         <div class="light-bg card" data-comp-id="div.1"
             style="margin: 0% 4%; border-radius: 10px;">
             <!--User Input-->
-            <label class="item item-input" data-comp-id="textInput.1">
-                <span class="input-label">Input Label</span>
-                <input ng-model="data.string" type="text">
-            </label>
-            <label class="item item-input" data-comp-id="textInput.2">
-                <span class="input-label">Input Label</span>
-                <input ng-model="data.string2" type="text">
-            </label>
-            <label class="item" data-comp-id="takePhoto.1"
-                ng-class="{'item-input item-button-right': style === 'control'}"
-                take-photo="control">
-                <span class="input-label" ng-if="style === 'control'">Add Attachment</span>
-                <button class="button button-icon" ng-if="style === 'control'">
-                    <i class="icon positive-icon ion-camera"></i>
-                </button>
-                <input disabled="" ng-if="style === 'control'" type="text">
-                <button class="button button-block button-positive nomargin"
-                    ng-if="style === 'button'">Take Photo</button>
-                <textarea class="not-visible"></textarea>
-            </label>
+            <select-list data-comp-id="selectList.1">Input Label</select-list>
+            <select-list data-comp-id="selectList.2">Input Label</select-list>
+            <select-list data-comp-id="selectList.3">Input Label</select-list>
             <!--User Input-->
             <!--User Input-->
             <!--User Input-->
@@ -60,15 +43,39 @@
         </div>
         <div class=" card" data-comp-id="div.2"
             style="margin: 0% 4%; border-radius: 10px;">
+            <label class="item item-input item-date-icon positive-icon"
+                data-comp-id="dateInput.2">
+                <span class="input-label">Date Label</span>
+                <input date-format="MM/DD/YYYY" max="2100-12-12" min="1900-01-01"
+                    ng-model-options="{allowInvalid: true}" type="date">
+            </label>
+            <label class="item item-input item-date-icon positive-icon"
+                data-comp-id="dateInput.3">
+                <span class="input-label">Date Label</span>
+                <input date-format="MM/DD/YYYY" max="2100-12-12" min="1900-01-01"
+                    ng-model-options="{allowInvalid: true}" type="date">
+            </label>
+            <label class="item item-input" data-comp-id="textInput.1">
+                <span class="input-label">Label</span>
+                <input type="text">
+            </label>
+            <label class="item item-input" data-comp-id="textInput.2">
+                <span class="input-label">Label</span>
+                <input type="text">
+            </label>
+            <label class="item item-input" data-comp-id="textInput.3">
+                <span class="input-label">Label</span>
+                <input type="text">
+            </label>
+            <label class="item item-input" data-comp-id="textInput.4">
+                <span class="input-label">Label</span>
+                <input type="text">
+            </label>
             <ion-list data-comp-id="ionic-list.1">
-                <multiselect-list data-comp-id="multiselectList.1"
-                    ng-model="data.multiSelectData" select-class=" positive-icon">Input Label</multiselect-list>
                 <div class="row" data-comp-id="row.3"
                     style="border-top: 2px solid rgb(221, 221, 221); border-bottom: 1px solid rgb(221, 221, 221); padding: 0px;">
                     <div class="col" data-comp-id="column.3" style="padding: 0px;"></div>
                 </div>
-                <multiselect-list data-comp-id="multiselectList.2"
-                    ng-model="data.multiSelectData2" select-class=" positive-icon">Input Label</multiselect-list>
             </ion-list>
         </div>
         <!--Container 3-->
@@ -78,7 +85,7 @@
         <div class="row" data-comp-id="row.4" style="margin: 2px 0px 0px;">
             <div class="col" data-comp-id="column.4">
                 <div class=" light" data-comp-id="text.3"
-                    style="font-size: 16px; margin: 0% 0% 0% 2%;">Section Three</div>
+                    style="font-size: 16px; margin: 0% 0% 0% 2%;">Other information</div>
             </div>
         </div>
         <div class=" card" data-comp-id="div.3"
