@@ -160,6 +160,11 @@
           }
         }
       }
+    },
+    "submit": {
+      "type": "action",
+      "selector": "button",
+      "control": "action.button"
     }
   },
   "connect": [],
