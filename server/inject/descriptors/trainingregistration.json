@@ -125,8 +125,8 @@
     },
     "trainingStatus": {
       "type": "string",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": "#trainingStatus_listbox > li",
+      "control": "text"
     }
   },
   "connect": [],
