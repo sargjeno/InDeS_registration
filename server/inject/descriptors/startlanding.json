@@ -17,12 +17,5 @@
       "control": "property.innerText"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isLanding"
-      ],
-      "event": "clickTrainingBatchCreate"
-    }
-  ]
+  "connect": []
 }
