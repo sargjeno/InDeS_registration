@@ -34,6 +34,13 @@
       "sourceScreenId": "app.login.logincaptivating",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "addtrainingdetails",
+      "name": "addTrainingDetails",
+      "sourceScreenId": "app.formlarge.formlargeconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "addtrainingdetails"
     }
   ],
   "sourceAppId": "_blank",

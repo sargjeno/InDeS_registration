@@ -51,5 +51,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.addtrainingdetails', {
+        views: {
+            app: {
+                controller: 'app_addtrainingdetails',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.addtrainingdetails');
+                }
+            }
+        }
     });
 });
