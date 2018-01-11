@@ -10,6 +10,11 @@
       "type": "string",
       "selector": "#menu > li:nth-child(9) > span",
       "control": "property.innerText"
+    },
+    "errorMessage": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
   "connect": [
