@@ -127,26 +127,6 @@
           }
         }
       },
-      "realizationList": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "name": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "click": {
-              "type": "string"
-            }
-          }
-        },
-        "update": {
-          "type": "none"
-        }
-      },
       "statusList": {
         "type": "array",
         "items": {
@@ -162,6 +142,20 @@
         },
         "update": {
           "type": "none"
+        }
+      },
+      "realizationList": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "click": {
+              "type": "action"
+            }
+          }
         }
       }
     }
