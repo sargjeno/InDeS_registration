@@ -11,10 +11,15 @@
     <ion-content class=" positive-bg" data-comp-id="ionic-content.1">
         <!--Form Section-->
         <!--Form Section-->
-        <div class="row" data-comp-id="row.1" ng-repeat="item in data.realizationList">
+        <div class="row" data-comp-id="row.1">
             <div class="col" data-comp-id="column.1"
                 ng-click="app.action('trainingregistration', 'realizationList[item].click', this)">
                 <div data-comp-id="text.1" ng-bind="item.name">Some text</div>
+                <label class="item  item-input item-select-icon positive-icon"
+                    data-comp-id="selectInput.1">
+                    <span class="input-label">Select Label</span>
+                    <select></select>
+                </label>
             </div>
         </div>
         <div class="row" data-comp-id="row.2">
