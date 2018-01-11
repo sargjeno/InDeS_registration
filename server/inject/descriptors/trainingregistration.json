@@ -175,8 +175,8 @@
     },
     "submit": {
       "type": "action",
-      "selector": "script",
-      "control": "property.innerText"
+      "selector": "button",
+      "control": "action.button"
     }
   },
   "connect": [
