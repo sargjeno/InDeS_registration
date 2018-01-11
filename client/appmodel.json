@@ -68,9 +68,6 @@
           }
         }
       },
-      "training": {
-        "type": "string"
-      },
       "trainingList": {
         "type": "array",
         "items": {
@@ -84,9 +81,6 @@
             }
           }
         }
-      },
-      "trainer": {
-        "type": "string"
       },
       "trainerList": {
         "type": "array",
@@ -107,12 +101,6 @@
         "update": {
           "type": "none"
         }
-      },
-      "realizationStatus": {
-        "type": "string"
-      },
-      "trainingStatus": {
-        "type": "string"
       },
       "employeeList": {
         "type": "array",
