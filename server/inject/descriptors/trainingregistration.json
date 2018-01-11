@@ -119,8 +119,9 @@
     },
     "realizationStatus": {
       "type": "string",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": "#realizationStatus_listbox > li",
+      "control": "text",
+      "selectHidden": true
     },
     "trainingStatus": {
       "type": "string",
