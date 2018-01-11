@@ -95,8 +95,9 @@
     },
     "trainer": {
       "type": "string",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": "#trainerList",
+      "control": "text",
+      "selectHidden": true
     },
     "trainerList": {
       "type": "array",
