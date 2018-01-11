@@ -167,10 +167,19 @@
       "control": "action.button"
     },
     "realizationList": {
-      "type": "object",
-      "selector": "#comment",
-      "properties": {},
-      "selectHidden": true
+      "type": "array",
+      "selectHidden": true,
+      "selectorAll": "#realizationStatus_listbox > li",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "selector": "#comment",
+            "control": "property.innerText"
+          }
+        }
+      }
     }
   },
   "connect": [
