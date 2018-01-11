@@ -69,12 +69,6 @@
         }
       }
     },
-    "training": {
-      "type": "string",
-      "selector": "#trainingList",
-      "control": "text",
-      "selectHidden": true
-    },
     "trainingList": {
       "type": "array",
       "selectHidden": true,
@@ -93,12 +87,6 @@
         }
       }
     },
-    "trainer": {
-      "type": "string",
-      "selector": "#trainerList",
-      "control": "text",
-      "selectHidden": true
-    },
     "trainerList": {
       "type": "array",
       "selectHidden": true,
@@ -116,18 +104,6 @@
           }
         }
       }
-    },
-    "realizationStatus": {
-      "type": "string",
-      "selector": "#realizationStatus_listbox > li",
-      "control": "text",
-      "selectHidden": true
-    },
-    "trainingStatus": {
-      "type": "string",
-      "selector": "#trainingStatus_listbox > li",
-      "control": "text",
-      "selectHidden": true
     },
     "employeeList": {
       "type": "array",
@@ -179,7 +155,7 @@
           },
           "click": {
             "type": "string",
-            "control": "action.link"
+            "control": "action.click"
           }
         }
       }
