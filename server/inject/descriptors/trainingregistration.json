@@ -83,7 +83,6 @@
         "properties": {
           "name": {
             "type": "string",
-            "selector": ".k-input",
             "control": "property.innerText"
           }
         }
