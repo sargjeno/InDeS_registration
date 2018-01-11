@@ -142,8 +142,7 @@
           },
           "click": {
             "type": "action",
-            "selector": "#employee_listbox",
-            "control": "property.innerText"
+            "control": "action.click"
           }
         }
       }
