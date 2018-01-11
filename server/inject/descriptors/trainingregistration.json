@@ -175,7 +175,6 @@
         "properties": {
           "name": {
             "type": "string",
-            "selector": "#comment",
             "control": "property.innerText"
           }
         }
