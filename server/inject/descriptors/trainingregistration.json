@@ -116,6 +116,16 @@
           }
         }
       }
+    },
+    "realizationStatus": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
+    },
+    "trainingStatus": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
   "connect": [],
