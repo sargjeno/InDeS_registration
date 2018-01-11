@@ -94,12 +94,18 @@
           "type": "object",
           "properties": {
             "name": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "click": {
               "type": "action"
             }
           }
+        },
+        "update": {
+          "type": "none"
         }
       },
       "realizationStatus": {
