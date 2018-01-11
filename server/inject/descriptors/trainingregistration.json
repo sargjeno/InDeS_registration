@@ -74,6 +74,14 @@
       "selector": "#trainingList",
       "control": "text",
       "selectHidden": true
+    },
+    "trainingList": {
+      "type": "array",
+      "selectorAll": "#trainingList_listbox > li",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
