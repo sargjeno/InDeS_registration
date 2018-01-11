@@ -149,7 +149,7 @@
     },
     "selectedEmployees": {
       "type": "array",
-      "selectorAll": "#employee_listbox",
+      "selectorAll": "#employee_taglist",
       "items": {
         "type": "object",
         "properties": {}
