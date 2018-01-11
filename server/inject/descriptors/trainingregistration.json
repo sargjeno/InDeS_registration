@@ -197,8 +197,7 @@
           },
           "click": {
             "type": "action",
-            "selector": "#trainingStatus-list",
-            "control": "property.innerHTML"
+            "control": "action.link"
           }
         }
       }
