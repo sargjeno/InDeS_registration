@@ -6,6 +6,11 @@
       "selector": "span",
       "control": "exists",
       "selectContains": "Training registration - Set the training more then one employee in same time"
+    },
+    "loggeduser": {
+      "type": "string",
+      "selector": ".k-link",
+      "control": "text"
     }
   },
   "connect": [
