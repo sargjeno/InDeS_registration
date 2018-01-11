@@ -137,11 +137,6 @@
         }
       }
     },
-    "submit": {
-      "type": "action",
-      "selector": "button",
-      "control": "action.button"
-    },
     "realizationList": {
       "type": "array",
       "selectHidden": true,
