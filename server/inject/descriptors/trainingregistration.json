@@ -149,10 +149,16 @@
     },
     "selectedEmployees": {
       "type": "array",
-      "selectorAll": "#employee_taglist.inner_text",
+      "selectorAll": "#employee_taglist > li",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "name": {
+            "type": "string",
+            "selector": "span",
+            "control": "property.innerText"
+          }
+        }
       }
     }
   },
