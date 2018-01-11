@@ -71,8 +71,9 @@
     },
     "training": {
       "type": "string",
-      "selector": ".k-item",
-      "control": "property.innerText"
+      "selector": "#trainingCompanyList",
+      "control": "text",
+      "selectHidden": true
     }
   },
   "connect": []
