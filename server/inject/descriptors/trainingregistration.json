@@ -139,6 +139,11 @@
           "name": {
             "type": "string",
             "control": "property.innerText"
+          },
+          "click": {
+            "type": "action",
+            "selector": "#employee_listbox",
+            "control": "property.innerText"
           }
         }
       }
