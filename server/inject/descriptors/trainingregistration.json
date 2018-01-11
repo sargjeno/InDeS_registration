@@ -80,7 +80,13 @@
       "selectorAll": "#trainingList_listbox > li",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "name": {
+            "type": "string",
+            "selector": ".k-input",
+            "control": "property.innerText"
+          }
+        }
       }
     }
   },
