@@ -185,10 +185,13 @@
       }
     },
     "statusList": {
-      "type": "string",
-      "selector": "#trainingStatus_listbox > li",
-      "control": "property.innerText",
-      "selectHidden": true
+      "type": "array",
+      "selectHidden": true,
+      "selectorAll": "#trainingStatus_listbox > li",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": [
