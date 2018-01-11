@@ -176,6 +176,10 @@
           "name": {
             "type": "string",
             "control": "property.innerText"
+          },
+          "click": {
+            "type": "string",
+            "control": "action.link"
           }
         }
       }
