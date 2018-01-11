@@ -126,7 +126,8 @@
     "trainingStatus": {
       "type": "string",
       "selector": "#trainingStatus_listbox > li",
-      "control": "text"
+      "control": "text",
+      "selectHidden": true
     }
   },
   "connect": [],
