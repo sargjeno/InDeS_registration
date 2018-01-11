@@ -132,6 +132,34 @@
             }
           }
         }
+      },
+      "realizationList": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "click": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "statusList": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "click": {
+              "type": "action"
+            }
+          }
+        }
       }
     }
   }
