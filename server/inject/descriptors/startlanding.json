@@ -3,9 +3,9 @@
   "properties": {
     "isLanding": {
       "type": "identifier",
-      "selector": "span",
+      "selector": "h2",
       "control": "exists",
-      "selectContains": "News"
+      "selectContains": "Training registration"
     },
     "loggeduser": {
       "type": "string",
