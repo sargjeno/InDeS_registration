@@ -71,7 +71,7 @@
     },
     "training": {
       "type": "string",
-      "selector": "#trainingCompanyList",
+      "selector": "#trainingList",
       "control": "text",
       "selectHidden": true
     }
