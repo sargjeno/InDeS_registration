@@ -45,11 +45,6 @@
       "selector": "#Comment",
       "control": "text"
     },
-    "traininglist": {
-      "type": "select",
-      "selector": "#trainingCompanyList_listbox > li",
-      "control": "select"
-    },
     "company": {
       "type": "string",
       "selector": "#trainingCompanyList",
