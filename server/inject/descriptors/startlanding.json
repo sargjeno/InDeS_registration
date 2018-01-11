@@ -10,7 +10,7 @@
     "loggeduser": {
       "type": "string",
       "selector": ".k-link",
-      "control": "text"
+      "control": "property.innerText"
     }
   },
   "connect": [
