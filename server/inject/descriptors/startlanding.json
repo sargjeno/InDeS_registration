@@ -14,7 +14,7 @@
     "errorMessage": {
       "type": "string",
       "selector": ".content.padding10.fg-red",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     }
   },
   "connect": [
