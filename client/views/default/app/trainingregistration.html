@@ -33,13 +33,14 @@
         <!--Container 7-->
         <!--Form Section-->
         <!--Form Section-->
-        <div class="row" data-comp-id="row.2" ng-repeat="item in data.realizationList">
-            <div class="col" data-comp-id="column.2">
+        <div class="row" data-comp-id="row.1" ng-repeat="item in data.realizationList">
+            <div class="col" data-comp-id="column.1"
+                ng-click="app.action('trainingregistration', 'realizationList[item].click', this)">
                 <div data-comp-id="text.1" ng-bind="item.name">Some text</div>
             </div>
         </div>
-        <div class="row" data-comp-id="row.1">
-            <div class="col" data-comp-id="column.1">
+        <div class="row" data-comp-id="row.2">
+            <div class="col" data-comp-id="column.2">
                 <button class="button button-block" data-comp-id="button.3"
                     ng-click="app.action('form', 'submit', this)" style="border-radius: 10px;">Submit</button>
             </div>
