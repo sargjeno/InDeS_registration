@@ -103,7 +103,17 @@
       "selectorAll": "body",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "name": {
+            "type": "string",
+            "control": "property.innerText"
+          },
+          "click": {
+            "type": "string",
+            "selector": "body",
+            "control": "property.innerText"
+          }
+        }
       }
     }
   },
