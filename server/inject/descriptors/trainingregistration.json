@@ -146,6 +146,14 @@
           }
         }
       }
+    },
+    "selectedEmployees": {
+      "type": "array",
+      "selectorAll": "#employee_listbox",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": [],
