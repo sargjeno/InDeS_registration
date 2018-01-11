@@ -23,9 +23,9 @@
             <select-list data-comp-id="selectList.1" label-class=" required"
                 ng-model="data.trainerList" title="Trainers...">Trainers...</select-list>
             <select-list data-comp-id="selectList.2" label-class=" required"
-                ng-model="data.companyList">Select company...</select-list>
+                ng-model="data.companyList">Companies...</select-list>
             <select-list data-comp-id="selectList.3" label-class=" required"
-                ng-model="data.trainingList">Select training...</select-list>
+                ng-model="data.trainingList">Trainings...</select-list>
             <!--User Input-->
             <!--User Input-->
             <!--User Input-->
@@ -48,14 +48,14 @@
             style="margin: 0% 4%; border-radius: 10px;">
             <label class="item item-input item-date-icon positive-icon"
                 data-comp-id="dateInput.1">
-                <span class="input-label required">Start Date</span>
+                <span class="input-label required">Start</span>
                 <input date-format="YYYY-MM-DD" max="2100-12-12" min="1900-01-01"
                     ng-model-options="{allowInvalid: true}" ng-model="data.startdate"
                     powwow-change="{dynamic:false}" type="date">
             </label>
             <label class="item item-input item-date-icon positive-icon"
                 data-comp-id="dateInput.2">
-                <span class="input-label required">End Date</span>
+                <span class="input-label required">End</span>
                 <input date-format="YYYY-MM-DD" max="2100-12-12" min="1900-01-01"
                     ng-model-options="{allowInvalid: true}" ng-model="data.enddate" type="date">
             </label>
