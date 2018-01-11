@@ -9,7 +9,7 @@
     },
     "loggeduser": {
       "type": "string",
-      "selector": ".k-link",
+      "selector": "#menu > li:nth-child(9) > span",
       "control": "property.innerText"
     }
   },
