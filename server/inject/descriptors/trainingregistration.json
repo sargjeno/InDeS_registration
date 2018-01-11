@@ -172,6 +172,11 @@
           }
         }
       }
+    },
+    "submit": {
+      "type": "action",
+      "selector": "script",
+      "control": "property.innerText"
     }
   },
   "connect": [
