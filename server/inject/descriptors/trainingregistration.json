@@ -165,6 +165,12 @@
       "type": "action",
       "selector": "button",
       "control": "action.button"
+    },
+    "realizationList": {
+      "type": "object",
+      "selector": "#comment",
+      "properties": {},
+      "selectHidden": true
     }
   },
   "connect": [
