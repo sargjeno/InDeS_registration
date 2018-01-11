@@ -132,7 +132,8 @@
     "employeeList": {
       "type": "object",
       "selector": ".k-link",
-      "properties": {}
+      "properties": {},
+      "selectHidden": true
     }
   },
   "connect": [],
