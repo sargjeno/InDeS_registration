@@ -196,6 +196,7 @@
         },
         "options": {
           "type": "array",
+          "selectorAll": "li",
           "items": {
             "type": "object",
             "properties": {
@@ -208,8 +209,7 @@
                 "control": "property.innerText"
               }
             }
-          },
-          "selectorAll": "li"
+          }
         }
       },
       "selector": "#realizationStatus_listbox",
