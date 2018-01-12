@@ -5,6 +5,6 @@ function app_trainingregistration($scope, app) {
     $scope.clickSelectedRealization = function(){
 console.log($scope.data.realization);
         $scope.clickWhat = JSON.parse($scope.data.realization.$i);
-        app.action('trainingregistration', 'realizationListDropdown.options['+$scope.clickWhat+'].clicked');
+        app.action('trainingregistration', 'realizationListDropdown.options[3].clicked');
     };
 }
