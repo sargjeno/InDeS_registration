@@ -208,6 +208,10 @@
               "value": {
                 "type": "string",
                 "control": "property.innerText"
+              },
+              "clicked": {
+                "type": "action",
+                "control": "action.click"
               }
             }
           }
