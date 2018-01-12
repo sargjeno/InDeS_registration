@@ -180,7 +180,29 @@
     },
     "realizationListDropdown": {
       "type": "object",
-      "properties": {}
+      "properties": {
+        "selected": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "control": "property.innerText"
+            },
+            "value": {
+              "type": "string",
+              "control": "property.innerText"
+            }
+          }
+        },
+        "options": {
+          "type": "array",
+          "selectorAll": "#realizationStatus_listbox",
+          "items": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      }
     }
   },
   "connect": [
