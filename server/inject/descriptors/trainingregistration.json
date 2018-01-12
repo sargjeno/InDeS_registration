@@ -138,19 +138,22 @@
       }
     },
     "realizationList": {
-      "type": "object",
-      "selector": "#realizationStatus_listbox > li",
-      "properties": {
-        "name": {
-          "type": "string",
-          "control": "property.innerText"
-        },
-        "click": {
-          "type": "action",
-          "control": "action.click"
+      "type": "array",
+      "selectHidden": true,
+      "selectorAll": "#realizationStatus_listbox > li",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "control": "property.innerText"
+          },
+          "click": {
+            "type": "action",
+            "control": "action.click"
+          }
         }
-      },
-      "selectHidden": true
+      }
     },
     "statusList": {
       "type": "array",
