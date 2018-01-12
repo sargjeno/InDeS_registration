@@ -139,7 +139,6 @@
     },
     "realizationList": {
       "type": "select",
-      "selectHidden": true,
       "selector": "#realizationStatus_listbox > li",
       "control": "select"
     },
