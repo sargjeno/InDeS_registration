@@ -149,7 +149,8 @@
           "type": "action",
           "control": "action.click"
         }
-      }
+      },
+      "selectHidden": true
     },
     "statusList": {
       "type": "array",
