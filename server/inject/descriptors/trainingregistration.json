@@ -209,7 +209,7 @@
               }
             }
           },
-          "selectorAll": "#realizationStatus_listbox > li"
+          "selectorAll": "li"
         }
       }
     }
