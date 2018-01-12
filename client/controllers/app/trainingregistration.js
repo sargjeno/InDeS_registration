@@ -10,6 +10,7 @@ function app_trainingregistration($scope, app) {
     // $scope.clickWhat = $scope.data.realization;
     // console.log(trainingregistration); -->> not exist on the page... 
     console.log('trainingregistration');
+    alert('Why Not Work!!');
     app.action('trainingregistration', 'realizationListDropdown.options['+$scope.data.realization.$i+'].clicked');
     };
 }
