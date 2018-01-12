@@ -9,9 +9,7 @@ function app_trainingregistration($scope, app) {
     // console.log($scope.data.realization.clicked);
     // $scope.clickWhat = $scope.data.realization;
     // console.log(trainingregistration); -->> not exist on the page... 
-
-    console.log($scope.clickWhat);
-
+    console.log('trainingregistration');
     app.action('trainingregistration', 'realizationListDropdown.options['+$scope.data.realization.$i+'].clicked');
     };
 }
