@@ -196,7 +196,6 @@
         },
         "options": {
           "type": "array",
-          "selectorAll": "#realizationStatus_listbox > li",
           "items": {
             "type": "object",
             "properties": {
@@ -211,8 +210,7 @@
             }
           }
         }
-      },
-      "selectHidden": true
+      }
     }
   },
   "connect": [
