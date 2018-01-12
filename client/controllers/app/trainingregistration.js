@@ -3,7 +3,7 @@ function app_trainingregistration($scope, app) {
     'use strict';
     app.init($scope);
     $scope.clickSelectedRealization = function(){
-console.log($scope.data.realization);
+console.log($scope.data.realization.$i);
         $scope.clickWhat = $scope.data.realization;
         app.action('trainingregistration', 'realizationListDropdown.options['+$scope.clickWhat.$i+'].clicked');
     };
