@@ -195,19 +195,16 @@
           }
         },
         "options": {
-          "type": "array",
-          "selectorAll": "#realizationStatus_listbox > li",
-          "items": {
-            "type": "object",
-            "properties": {
-              "label": {
-                "type": "string",
-                "control": "property.innerText"
-              },
-              "value": {
-                "type": "string",
-                "control": "property.innerText"
-              }
+          "type": "object",
+          "selector": "#realizationStatus_listbox > li",
+          "properties": {
+            "label": {
+              "type": "string",
+              "control": "property.innerText"
+            },
+            "value": {
+              "type": "string",
+              "control": "property.innerText"
             }
           }
         }
