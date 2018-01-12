@@ -4,11 +4,12 @@ function app_trainingregistration($scope, app) {
     app.init($scope);
     
     $scope.clickSelectedRealization = function(){
+        
+    // $scope.clickWhat = $scope.data.realization;
+    // console.log(trainingregistration); -->> not exist on the page...         
     console.log($scope.data.realization.$i);
     console.log($scope.data.realization.label);
     var selectedId = $scope.data.realization.$i;
-    // $scope.clickWhat = $scope.data.realization;
-    // console.log(trainingregistration); -->> not exist on the page... 
     console.log(selectedId);
     
     
