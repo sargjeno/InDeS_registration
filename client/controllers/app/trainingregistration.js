@@ -6,14 +6,14 @@ function app_trainingregistration($scope, app) {
     $scope.clickSelectedRealization = function(){
     console.log($scope.data.realization.$i);
     console.log($scope.data.realization.label);
-
+    var selectedId = $scope.data.realization.$i;
     // $scope.clickWhat = $scope.data.realization;
     // console.log(trainingregistration); -->> not exist on the page... 
 
     console.log('trainingregistration');
     alert('Why Not Work!!');
     
-    console.log(app.data.realizationListDropdown.options[0]);
+    console.log(app.data.realizationListDropdown.options[+selectedId+]);
 
     app.action('trainingregistration', 'realizationListDropdown.options['+$scope.data.realization.$i+'].clicked');
     };
