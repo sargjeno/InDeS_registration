@@ -177,6 +177,10 @@
       "type": "action",
       "selector": "button",
       "control": "action.button"
+    },
+    "realizationListDropdown": {
+      "type": "object",
+      "properties": {}
     }
   },
   "connect": [
