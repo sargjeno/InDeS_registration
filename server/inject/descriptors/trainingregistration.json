@@ -174,15 +174,6 @@
       "type": "action",
       "selector": "button",
       "control": "action.button"
-    },
-    "selectTest": {
-      "type": "array",
-      "selectHidden": true,
-      "selectorAll": "#realizationStatus_listbox > li",
-      "items": {
-        "type": "object",
-        "properties": {}
-      }
     }
   },
   "connect": [
