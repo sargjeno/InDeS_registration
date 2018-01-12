@@ -9,9 +9,11 @@ function app_trainingregistration($scope, app) {
     // console.log(trainingregistration); -->> not exist on the page...         
     console.log("Selected ID: " + $scope.data.realization.$i);
     console.log("Selected label: " + $scope.data.realization.label);
+    
     var selectedId = $scope.data.realization.$i;
     var actionUrl = 'realizationListDropdown.options['+selectedId+'].clicked';
-    console.log(realizationListDropdown.options['+selectedId+'].label);
+    
+    console.log(app.data.realizationListDropdown.options['+selectedId+'].label);
     console.log(actionUrl);
 
     alert('Why Not Work!!');
