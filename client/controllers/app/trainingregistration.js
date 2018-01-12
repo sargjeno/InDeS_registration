@@ -9,11 +9,11 @@ function app_trainingregistration($scope, app) {
     var selectedId = $scope.data.realization.$i;
     // $scope.clickWhat = $scope.data.realization;
     // console.log(trainingregistration); -->> not exist on the page... 
-
-    console.log('trainingregistration');
-    alert('Why Not Work!!');
+    console.log(selectedId);
     
-    console.log(app.data.realizationListDropdown.options[+selectedId+]);
+    
+    alert('Why Not Work!!');
+    console.log("realizationDropDown: " + app.data.realizationListDropdown.options[1]);
 
     app.action('trainingregistration', 'realizationListDropdown.options['+$scope.data.realization.$i+'].clicked');
     };
