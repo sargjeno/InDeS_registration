@@ -143,7 +143,17 @@
       "selectorAll": "#realizationStatus_listbox",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "name": {
+            "type": "string",
+            "control": "property.innerText"
+          },
+          "click": {
+            "type": "action",
+            "selector": "#realizationStatus_listbox",
+            "control": "property.innerText"
+          }
+        }
       }
     },
     "statusList": {
