@@ -150,8 +150,7 @@
           },
           "click": {
             "type": "action",
-            "selector": "#realizationStatus_listbox",
-            "control": "property.innerText"
+            "control": "action.click"
           }
         }
       }
