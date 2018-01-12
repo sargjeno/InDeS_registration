@@ -180,9 +180,6 @@
                 "label": {
                   "type": "string"
                 },
-                "value": {
-                  "type": "string"
-                },
                 "clicked": {
                   "type": "action"
                 }
