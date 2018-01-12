@@ -197,7 +197,7 @@
         "options": {
           "type": "array",
           "selectHidden": true,
-          "selectorAll": "li",
+          "selectorAll": "#realizationStatus_listbox > li",
           "items": {
             "type": "object",
             "properties": {
