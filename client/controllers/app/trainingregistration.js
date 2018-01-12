@@ -13,6 +13,8 @@ function app_trainingregistration($scope, app) {
     console.log('trainingregistration');
     alert('Why Not Work!!');
     
+    console.log(app.data);
+    
     app.action('trainingregistration', 'realizationListDropdown.options['+$scope.data.realization.$i+'].clicked');
     };
 }
