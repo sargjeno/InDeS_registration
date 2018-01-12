@@ -199,7 +199,16 @@
           "selectorAll": "#realizationStatus_listbox",
           "items": {
             "type": "object",
-            "properties": {}
+            "properties": {
+              "label": {
+                "type": "string",
+                "control": "property.innerText"
+              },
+              "value": {
+                "type": "string",
+                "control": "property.innerText"
+              }
+            }
           }
         }
       }
