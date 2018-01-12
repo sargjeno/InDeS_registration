@@ -208,7 +208,8 @@
                 "control": "property.innerText"
               }
             }
-          }
+          },
+          "selectorAll": "#realizationStatus_listbox > li"
         }
       }
     }
