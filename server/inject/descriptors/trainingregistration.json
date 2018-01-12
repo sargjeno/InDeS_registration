@@ -138,10 +138,13 @@
       }
     },
     "realizationList": {
-      "type": "object",
-      "selector": "#realizationStatus_listbox",
+      "type": "array",
       "selectHidden": true,
-      "properties": {}
+      "selectorAll": "#realizationStatus_listbox",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     },
     "statusList": {
       "type": "array",
