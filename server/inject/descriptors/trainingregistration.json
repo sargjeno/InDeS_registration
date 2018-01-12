@@ -140,7 +140,8 @@
     "realizationList": {
       "type": "select",
       "selectHidden": true,
-      "selector": "#realizationStatus_listbox > li"
+      "selector": "#realizationStatus_listbox > li",
+      "control": "select"
     },
     "statusList": {
       "type": "array",
