@@ -21,6 +21,7 @@ function app_trainingregistration($scope, app) {
 
     // app.action('trainingregistration', $scope.data.realization.clicked);
     
-    app.action('trainingregistration', 'realizationListDropdown.options['+$scope.data.realization.$i+'].clicked');
+    // app.action('trainingregistration', 'realizationListDropdown.options['+$scope.data.realization.$i+'].clicked');
+    app.action('trainingregistration', 'realizationListDropdown.options[3].clicked');
     };
 }
