@@ -176,10 +176,13 @@
       "control": "action.button"
     },
     "selectTest": {
-      "type": "select",
-      "selector": "#realizationStatus_listbox > li",
-      "control": "select",
-      "selectHidden": true
+      "type": "array",
+      "selectHidden": true,
+      "selectorAll": "#realizationStatus_listbox > li",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": [
