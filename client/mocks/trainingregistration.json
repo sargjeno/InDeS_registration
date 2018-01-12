@@ -42640,6 +42640,36 @@
    "name": "Assigned"
   }
  ],
+ "realizationListDropdown": {
+  "selected": {},
+  "options": [
+   {
+    "$i": 0,
+    "label": "Registered",
+    "value": "Registered"
+   },
+   {
+    "$i": 1,
+    "label": "Planned",
+    "value": "Planned"
+   },
+   {
+    "$i": 2,
+    "label": "Not Completed",
+    "value": "Not Completed"
+   },
+   {
+    "$i": 3,
+    "label": "In Progress",
+    "value": "In Progress"
+   },
+   {
+    "$i": 4,
+    "label": "Completed",
+    "value": "Completed"
+   }
+  ]
+ },
  "isgroupregistartion": true,
  "startdate": "2018-01-11",
  "enddate": "2018-01-11",
