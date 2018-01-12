@@ -138,19 +138,9 @@
       }
     },
     "realizationList": {
-      "type": "object",
+      "type": "select",
       "selectHidden": true,
-      "selector": "#realizationStatus_listbox > li",
-      "properties": {
-        "name": {
-          "type": "string",
-          "control": "property.innerText"
-        },
-        "click": {
-          "type": "action",
-          "control": "action.click"
-        }
-      }
+      "selector": "#realizationStatus_listbox > li"
     },
     "statusList": {
       "type": "array",
