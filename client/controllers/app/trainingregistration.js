@@ -6,6 +6,7 @@ function app_trainingregistration($scope, app) {
     console.log($scope.data.realization.$i);
     console.log($scope.data.realization.label);
     // $scope.clickWhat = $scope.data.realization;
-    app.action('trainingregistration', 'realizationListDropdown.options['+$scope.data.realization.$i+'].clicked()');
+    app.action('trainingregistration', 'realizationListDropdown.options[2].clicked');
+    // app.action('trainingregistration', 'realizationListDropdown.options['+$scope.data.realization.$i+'].clicked');
     };
 }
