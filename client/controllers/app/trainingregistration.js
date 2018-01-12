@@ -12,7 +12,8 @@ function app_trainingregistration($scope, app) {
     
     var selectedId = $scope.data.realization.$i;
     var actionUrl = 'realizationListDropdown.options['+selectedId+'].clicked';
-    console.log(actionUrl);
+    var actionLabel = realizationListDropdown.options[+2+].label;
+    console.log(actionLabel);
     
     // console.log(app.data.realizationListDropdown.options['+selectedId+'].label);
 
