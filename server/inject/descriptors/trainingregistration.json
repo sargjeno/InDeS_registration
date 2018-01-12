@@ -140,7 +140,7 @@
     "realizationList": {
       "type": "array",
       "selectHidden": true,
-      "selectorAll": "#realizationStatus_listbox",
+      "selectorAll": "#realizationStatus_listbox > li",
       "items": {
         "type": "object",
         "properties": {
