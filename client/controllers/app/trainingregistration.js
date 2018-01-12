@@ -16,7 +16,7 @@ function app_trainingregistration($scope, app) {
     alert('Why Not Work!!');
     console.log("realizationDropDown: " + app.data.realizationListDropdown.options[selectedId].label);
     // app.data.realizationListDropdown.options[selectedId].clicked;
-    //app.action('trainingregistration', 'realizationListDropdown.options['+selectedId+'].clicked');
+    app.action('trainingregistration', actionUrl);
     
     // app.action('trainingregistration', 'realizationListDropdown.options['+$scope.data.realization.$i+'].clicked');
     };
