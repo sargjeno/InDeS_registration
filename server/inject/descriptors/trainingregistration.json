@@ -211,9 +211,7 @@
             }
           }
         }
-      },
-      "selector": "#realizationStatus_listbox",
-      "selectHidden": true
+      }
     }
   },
   "connect": [
