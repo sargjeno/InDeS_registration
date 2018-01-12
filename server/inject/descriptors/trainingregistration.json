@@ -195,21 +195,19 @@
           }
         },
         "options": {
-          "type": "array",
-          "selectorAll": "li",
-          "items": {
-            "type": "object",
-            "properties": {
-              "label": {
-                "type": "string",
-                "control": "property.innerText"
-              },
-              "value": {
-                "type": "string",
-                "control": "property.innerText"
-              }
+          "type": "object",
+          "selector": "li",
+          "properties": {
+            "label": {
+              "type": "string",
+              "control": "property.innerText"
+            },
+            "value": {
+              "type": "string",
+              "control": "property.innerText"
             }
-          }
+          },
+          "selectHidden": true
         }
       }
     }
