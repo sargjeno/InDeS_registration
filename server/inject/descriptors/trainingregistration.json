@@ -139,7 +139,6 @@
     },
     "realizationList": {
       "type": "object",
-      "selectHidden": true,
       "selector": "#realizationStatus_listbox > li",
       "properties": {
         "name": {
